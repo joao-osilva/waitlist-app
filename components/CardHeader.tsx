@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Speaker from "/public/speaker.svg";
+import {Features} from '@/components/Features';
 const siteLogo = process.env.NEXT_PUBLIC_LOGO || Speaker;
 
 const CardHeader = ({
@@ -18,10 +19,11 @@ const CardHeader = ({
         <h1 className="text-4xl md:text-[55px] font-semibold leading-none md:leading-tight text-[#482307]">
           {title}
         </h1>
-        <p className="text-lg md:text-[26px] font-normal text-[#A1724E]/60">
+        <p className="text-lg md:text-[32px] font-normal text-[#e8b464]/60">
           {subtitle}
-        </p>
+        </p>        
       </div>
+      <Features />
     </div>
   );
 };
