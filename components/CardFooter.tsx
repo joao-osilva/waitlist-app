@@ -24,9 +24,9 @@ const CardFooter = () => {
         <Link href={LinkedinLink} className="relative w-[22px] h-[22px]">
           <Image src={Linkedin} alt="Linkedin" fill />
         </Link>
-        <Link href={TwitterLink} className="relative w-[22px] h-[22px]">
+        {/* <Link href={TwitterLink} className="relative w-[22px] h-[22px]">
           <Image src={Twitter} alt="Twitter" fill />
-        </Link>
+        </Link> */}
         <Link href={GithubLink} className="relative w-[22px] h-[22px]">
           <Image src={Github} alt="Github" fill />
         </Link>

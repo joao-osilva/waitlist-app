@@ -19,7 +19,7 @@ const CardHeader = ({
         <h1 className="text-4xl md:text-[55px] font-semibold leading-none md:leading-tight text-[#482307]">
           {title}
         </h1>
-        <p className="text-lg md:text-[32px] font-normal text-[#e8b464]/60">
+        <p className="text-lg md:text-[32px] font-normal text-[#b99050]/60">
           {subtitle}
         </p>        
       </div>

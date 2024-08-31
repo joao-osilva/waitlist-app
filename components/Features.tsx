@@ -2,6 +2,9 @@
 import {Card, Divider, Text} from '@nextui-org/react';
 import React from 'react';
 import {BoxIcon} from '../icons/BoxIcon';
+import {CloudIcon} from '../icons/CloudIcon';
+import {TestIcon} from '../icons/TestIcon';
+import {ReuseIcon} from '../icons/ReuseIcon';
 import {Box} from '../styles/box';
 import {Flex} from '../styles/flex';
 
@@ -46,8 +49,15 @@ export const Features = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Bounded context</Text>
-                           <Text span>
+                           <Text h5 weight={'medium'}>
+                              Bounded context
+                           </Text>
+                           <Text 
+                              span
+                              css={{
+                                 color: '$accents8',
+                              }}
+                           >
                               Single responsibility enables finer-grained and 
                               decoupled solutions with more deterministic outcomes
                            </Text>
@@ -58,10 +68,17 @@ export const Features = () => {
                <Card css={{mw: '450px'}}>
                   <Card.Body>
                      <Flex css={{gap: '0.5rem'}}>
-                        <BoxIcon />
+                        <CloudIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Accessible as a service</Text>
-                           <Text span>
+                           <Text h5 weight={'medium'}>
+                              Accessible as a service
+                           </Text>
+                           <Text 
+                              span
+                              css={{
+                                 color: '$accents8',
+                              }}
+                           >
                               Functionalities exposed as services (API) allows easier consumption, 
                               hiding implementation details, dependencies and complexities
                            </Text>
@@ -82,10 +99,17 @@ export const Features = () => {
                <Card css={{mw: '450px'}}>
                   <Card.Body>
                      <Flex css={{gap: '0.5rem'}}>
-                        <BoxIcon />
+                        <TestIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Testable and measurable</Text>
-                           <Text span>
+                           <Text h5 weight={'medium'}>
+                              Testable and measurable
+                           </Text>
+                           <Text 
+                              span
+                              css={{
+                                 color: '$accents8',
+                              }}
+                           >
                               Standardized input/output schema and task decomposition into 
                               smaller goals bring order to the chaos and quantifiable progress
                            </Text>
@@ -96,10 +120,17 @@ export const Features = () => {
                <Card css={{mw: '450px'}}>
                   <Card.Body>
                      <Flex css={{gap: '0.5rem'}}>
-                        <BoxIcon />
+                        <ReuseIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Built for reuse</Text>
-                           <Text span>
+                           <Text h5 weight={'medium'}>
+                              Built for reuse
+                           </Text>
+                           <Text 
+                              span
+                              css={{
+                                 color: '$accents8',
+                              }}
+                           >
                               Modularity increases reusability by enabling composition, 
                               which can drastically decrease time-to-market
                            </Text>

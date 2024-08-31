@@ -60,9 +60,9 @@ const EmailForm = () => {
       <button
         disabled={isPending}
         type="submit"
-        className="bg-gradient-to-b from-white to-[#e8b464] text-[#482307] shadow-button-shadow font-semibold py-2 px-3 rounded-md text-base transition-all duration-200 "
+        className="bg-gradient-to-b from-white to-[#b99050] text-[#482307] shadow-button-shadow font-semibold py-2 px-3 rounded-md text-base transition-all duration-200 "
       >
-        Subscribe
+        Join now!
       </button>
     </form>
   );
